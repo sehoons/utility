@@ -1,6 +1,6 @@
 //특정 필드의 값을 가져 옴
 function getInputValue(cssItem){
-    console.log('test')
+    console.log('으아아ㅏ아아아악!!')
     let nativeInputValueGetter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").get;
     const inputText = nativeInputValueGetter.call(cssItem);
 
