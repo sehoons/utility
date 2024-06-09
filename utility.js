@@ -11,3 +11,4 @@ function setInputValue(cssItem, value){
     let newEvent = new Event('input', { bubbles: true});
     cssItem.dispatchEvent(newEvent);
 }
+
